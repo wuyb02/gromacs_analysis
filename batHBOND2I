@@ -1,0 +1,5 @@
+#!/bin/bash
+
+I=6
+
+echo 0 1 2 3 | ./mg_hbond2i -nice 0 -f md0${I}.xtc -s md0${I}1.tpr -o hbond2i0${I}.xvg -n index.ndx -b 10 -dt 0.1 -dT 0.1 -snp 1800 -ng 4 -nobMW -nAng 1 -rcut 0.35 -acut 30 -rlist 0.8 -tUpdate 0.4

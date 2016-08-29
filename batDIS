@@ -1,0 +1,5 @@
+#!/bin/bash
+
+I=16
+
+echo 1 3 | ./mg_dis -nice 0 -f md15.xtc -s md${I}.tpr -o dis${I}.xvg -n index${I}.ndx -b 10 -dt 1.0 -dT 1.0 -snp 8000 -ng 2 -gridsize 0.01

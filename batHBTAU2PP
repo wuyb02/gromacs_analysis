@@ -1,0 +1,5 @@
+#!/bin/bash
+
+I=7
+
+echo 0 1 2 3 | ./mg_hbtau2 -nice 0 -f md0${I}.xtc -s md061.tpr -o hbtau20${I}.xvg -n index.ndx -b 10 -dt 0.01 -dT 0.01 -snp 18000 -ng 4 -nobMW -chunk 20.0001 -interval 1 -rcut 0.35 -acut 30

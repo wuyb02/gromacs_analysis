@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo 1 3 4 5 | ./mg_ntnWt -nice 0 -f md01.xtc -s md011.tpr -o wtntnWt01.xvg -b 50 -dt 0.1 -dT 0.1 -snp 1500 -ng 4 -z1 2.5 -z2 3.9 -xnt 1.7121 -ynt 1.7201 -rnt 0.35

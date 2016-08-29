@@ -1,0 +1,12 @@
+#!/bin/bash
+
+code="dis"
+CODE="DIS"
+MERCURY="mercury.ceg.uiuc.edu:/home/yanbin/research/src/ANALYSIS/TEMPLATE"
+
+scp ${MERCURY}/mg_${code}.c .
+scp ${MERCURY}/mg_${code}.h .
+scp ${MERCURY}/do_${code}.c .
+scp ${MERCURY}/do_${code}.h .
+scp ${MERCURY}/Make_${CODE} .
+scp ${MERCURY}/bat${CODE} .

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+I=1
+
+echo 1 3 | ./mg_zwtrho -nice 0 -f md0${I}.xtc -s md01post.tpr -o zwtrho0${I}O.xvg -n indexpost.ndx -b 50 -dt 0.1 -dT 0.1 -snp 1500 -ng 2 -gridsize 0.01
+# echo 1 4 | ./mg_zwtrho -nice 0 -f md0${I}.xtc -s md01post.tpr -o zwtrho0${I}H.xvg -n indexpost.ndx -b 50 -dt 0.1 -dT 0.1 -snp 1500 -ng 2 -gridsize 0.01

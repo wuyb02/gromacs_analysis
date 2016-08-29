@@ -1,0 +1,5 @@
+#!/bin/bash
+
+I=0110
+
+echo 5 2 3 4 | ./mg_ca -nice 0 -f md${I}.xtc -s md011.tpr -o wtrho${I}_dzp01_dAp05.xvg -ox gridR_dzp01_dAp05.xvg -oy gridZ_dzp01_dAp05.xvg -n index1.ndx -dt 0.1 -dT 0.1 -snp 100000 -ng 4 -zg 0.44 -Lz 5.0 -R 5.0 -zbin 0.01 -dA 0.05

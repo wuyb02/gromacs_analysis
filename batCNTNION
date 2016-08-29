@@ -1,0 +1,6 @@
+#!/bin/bash
+
+I=3
+
+echo 1 | ./mg_cntnion -nice 0 -f md0${I}.xtc -s md031.tpr -o cntnion0${I}K.xvg -n index1.ndx -dt 0.05 -dT 0.05 -snp 70000 -ng 1 -zlcnt 2.255 -zucnt 3.800
+echo 2 | ./mg_cntnion -nice 0 -f md0${I}.xtc -s md031.tpr -o cntnion0${I}CL.xvg -n index1.ndx -dt 0.05 -dT 0.05 -snp 70000 -ng 1 -zlcnt 2.255 -zucnt 3.800

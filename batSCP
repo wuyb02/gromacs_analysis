@@ -1,0 +1,12 @@
+#!/bin/bash
+
+code="vacc2"
+CODE="VACC2"
+MERCURY="mercury.ceg.uiuc.edu:/home/yanbin/research/src/ANALYSIS/TEMPLATE"
+
+scp mg_${code}.c ${MERCURY}/
+scp mg_${code}.h ${MERCURY}/
+scp do_${code}.c ${MERCURY}/
+scp do_${code}.h ${MERCURY}/
+scp Make_${CODE} ${MERCURY}/
+scp bat${CODE} ${MERCURY}/

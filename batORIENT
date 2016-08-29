@@ -1,0 +1,5 @@
+#!/bin/bash
+
+I=3
+
+echo 0 1 | ./mg_orient -f md0${I}_1ps.xtc -s md0${I}1.tpr -n orient.ndx -o orient0${I}.xvg -b 100 -dt 1.0 -dT 1.0 -snp 900 -ng 2 -chunk 100.001 -interval 1 

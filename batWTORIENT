@@ -1,0 +1,5 @@
+#!/bin/bash
+
+I=1
+
+echo 0 1 2 3 | ./mg_wtorient -nice 0 -f md0${I}.xtc -s md0${I}post.tpr -o wtorient0${I}.xvg -n indexpost.ndx -b 10 -dt 1.0 -dT 1.0 -snp 40 -ng 4 -dtheta 10 -gridsize 0.1

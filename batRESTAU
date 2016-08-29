@@ -1,0 +1,5 @@
+#!/bin/bash
+
+I=6
+
+echo 0 1 | ./mg_restau -nice 0 -f md0${I}.xtc -s md0${I}1.tpr -o res0${I}.xvg -n index.ndx -b 10 -dt 0.1 -dT 0.1 -snp 1800 -ng 2 -chunk 20.001 -interval 10

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+code1="rvelacc"
+CODE1="RVELACC"
+code2="srvelacc"
+CODE2="SRVELACC"
+
+cp mg_${code1}.c mg_${code2}.c
+cp mg_${code1}.h mg_${code2}.h
+cp do_${code1}.c do_${code2}.c
+cp do_${code1}.h do_${code2}.h
+cp Make_${CODE1}-MERCURY Make_${CODE2}-MERCURY

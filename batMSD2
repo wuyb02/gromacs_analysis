@@ -1,0 +1,7 @@
+#!/bin/bash
+
+I=4
+
+echo 1 3 | ./mg_msd2 -f md0${I}.xtc -s md0${I}1.tpr -n index${I}.ndx -o msd0${I}.xvg -b 10 -dt 1.0 -dT 1.0 -snp 20 -ng 2 -chunk 20.0001 -nobMW
+# echo 1 3 | ./mg_msd -f md0${I}.xtc -s md0${I}1.tpr -n index${I}.ndx -o msd0${I}.xvg -b 10 -dt 0.01 -dT 0.01 -snp 18000 -ng 2 -chunk 20.0001 -nobMW
+

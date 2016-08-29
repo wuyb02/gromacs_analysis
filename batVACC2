@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo 0 | ./mg_vacc2 -nice 0 -f md08.gro -s md082.tpr -o vacc08.xvg -n index8.ndx -dt 1.0 -dT 1.0 -snp 1 -ng 1 -gridsize 0.1 -solutesize 0.5
